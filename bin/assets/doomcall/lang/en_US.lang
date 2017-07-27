@@ -1,0 +1,29 @@
+itemGroup.doomcall=DoomCall
+
+item.destroyer.name=Destroyer
+
+item.ingotBronze.name=Bronze
+item.ingotCopper.name=Copper
+item.ingotElectrum.name=Electrum
+item.ingotEnderium.name=Enderium
+item.ingotInvar.name=Invar
+item.ingotLead.name=Lead
+item.ingotNickel.name=Nickel
+item.ingotPlatinum.name=Platinum
+item.ingotSilver.name=Silver
+item.ingotTin.name=Tin
+item.ingotSteel.name=Steel
+
+tile.package.name=Package
+tile.crate.name=Crate
+tile.crate_reinforced.name=Reinforced Crate
+tile.generator_heavy_coal.name=Heavy Coal Generator
+tile.hv_generator.name=HV Generator
+tile.machinePart.name=Machine Part
+tile.energeticMassFabricator.name=Mass Factory
+tile.resourceGenerator.name=Resource Generator
+
+entity.destroyer.name=Destroyer
+
+container.itemCrate=Crate
+container.itemCrateReinforced=Reinforced Crate

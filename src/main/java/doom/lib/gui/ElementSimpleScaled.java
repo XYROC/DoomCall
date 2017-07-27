@@ -27,7 +27,7 @@ public class ElementSimpleScaled {
 	}
 	
 	@SideOnly(Side.CLIENT)
-	public void drawElement(GuiScreen screen){
+	public void draw(GuiScreen screen){
 		screen.mc.renderEngine.bindTexture(texture);
 		screen.drawTexturedModalRect(xPos, yPos, textureX, textureY, xSize, ySize);
 	}

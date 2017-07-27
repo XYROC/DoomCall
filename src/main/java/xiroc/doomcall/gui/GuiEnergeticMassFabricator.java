@@ -44,8 +44,8 @@ public class GuiEnergeticMassFabricator extends GuiContainer {
 		ElementSimpleScaled rf_bar = new ElementSimpleScaled(texture_nei, 13, 57 - ySize_rf, 12, ySize_rf, 17,
 				1 + (40 - ySize_rf));
 		ElementSimpleScaled burnTimeBar = new ElementSimpleScaled(gui, 92, 27, xSize_burnTime, 27, 176, 0);
-		rf_bar.drawElement(this);
-		burnTimeBar.drawElement(this);		
+		rf_bar.draw(this);
+		burnTimeBar.draw(this);		
 	}
 	
 	

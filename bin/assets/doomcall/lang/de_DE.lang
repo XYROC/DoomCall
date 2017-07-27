@@ -1,0 +1,30 @@
+itemGroup.doomcall=DoomCall
+
+item.destroyer.name=Zerstörer
+
+item.ingotBronze.name=Bronze
+item.ingotCopper.name=Kupfer
+item.ingotElectrum.name=Elektrum
+item.ingotEnderium.name=Enderium
+item.ingotInvar.name=Invar
+item.ingotLead.name=Bleib
+item.ingotNickel.name=Nickelb
+item.ingotPlatinum.name=Platinum
+item.ingotSilver.name=Silber
+item.ingotTin.name=Zinn
+item.ingotSteel.name=Stahl
+
+tile.package.name=Paket
+tile.crate.name=Kiste
+tile.crate_reinforced.name=Verstärkte Kiste
+tile.generator_heavy_coal.name=Schwerer Kohlegenerator
+tile.hv_generator.name=HV Generator
+tile.machinePart.name=Maschinenteil
+tile.energeticMassFabricator.name=Masse-Fabrik
+tile.resourceGenerator.name=Ressourcen Generator
+
+entity.destroyer.name=Zerstörer
+
+container.itemCrate=Kiste
+container.itemCrateReinforced=Verstärkte Kiste
+container.resourceGenerator=Ressourcen Generator
