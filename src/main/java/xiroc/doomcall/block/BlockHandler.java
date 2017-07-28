@@ -7,12 +7,15 @@ import net.minecraft.block.material.Material;
 import net.minecraft.world.World;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import xiroc.doomcall.item.ModItems;
+import xiroc.doomcall.lib.Names;
 
 public class BlockHandler {
 	
+	public static Block CABLE_POWER_COPPER = new BlockCopperPowerCable();
+	
 	public static Block item_crate = new BlockItemCrate();
 	public static Block item_crate_reinforced = new BlockItemCrateReinforced();
-	public static Block heavy_coal_generator = new BlockHeavyCoalGenerator(Material.rock);
+	public static Block heavy_coal_generator = new BlockHeavyCoalGenerator();
 	public static Block hv_generator = new BlockHVGenerator(Material.iron);
 	public static Block machine_part = new BlockMachinePart(Material.iron);
 	public static Block energetic_mass_fabricator = new BlockEnergeticMassFabricator(Material.iron);
@@ -22,6 +25,7 @@ public class BlockHandler {
 	public static final int machine_energetic_mass_fabricator = 1;
 	
 	public static void registerBlocks(){
+		GameRegistry.registerBlock(CABLE_POWER_COPPER, ItemBlockStandardMetadata.class, Names.CABLE_POWER_COPPER);		
 		GameRegistry.registerBlock(item_crate, "crate");
 		GameRegistry.registerBlock(item_crate_reinforced, "crate_reinforced");
 		GameRegistry.registerBlock(heavy_coal_generator, ModItems.item_hcg.getClass(), "generator_coal_heavy");

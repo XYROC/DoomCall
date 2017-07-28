@@ -2,6 +2,7 @@ package xiroc.doomcall.block;
 
 import java.util.Random;
 
+import doom.lib.block.BlockMachine;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
@@ -12,13 +13,11 @@ import net.minecraft.world.World;
 import xiroc.doomcall.DoomCall;
 import xiroc.doomcall.tileentity.TileEntityHeavyCoalGenerator;
 
-public class BlockHeavyCoalGenerator extends BlockContainer{
+public class BlockHeavyCoalGenerator extends BlockMachine{
 	//BlockFurnace
 
-	public BlockHeavyCoalGenerator(Material material) {
-		super(material);
-		setStepSound(soundTypeMetal);
-		setHardness(3.14159F);
+	public BlockHeavyCoalGenerator() {
+		super();
 		setBlockName("generator_heavy_coal");
 		setCreativeTab(DoomCall.creativeTab);
 	}

@@ -32,8 +32,9 @@ public class BlockEnergeticMassFabricator extends BlockContainer {
 		if (BlockHandler.isDefaultMultiblockStructure(this, BlockHandler.machine_part, world, x, y, z)) {
 			TileEntityEnergeticMassFabricator tile = (TileEntityEnergeticMassFabricator) world.getTileEntity(x, y, z);
 			player.openGui(Reference.instance, Reference.gui_energetic_mass_fabricator, world, x, y, z);
+			return true;
 		}
-		return true;
+		return false;
 	}
 
 	@Override

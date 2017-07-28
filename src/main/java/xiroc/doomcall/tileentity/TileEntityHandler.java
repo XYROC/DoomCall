@@ -5,6 +5,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class TileEntityHandler {
 	
 	public static void registerTileEntities(){
+		GameRegistry.registerTileEntity(TileEntityCable.class, "doomcall_cable");
 		GameRegistry.registerTileEntity(TileEntityItemCrate.class, "doomcall_item_crate");
 		GameRegistry.registerTileEntity(TileEntityItemCrateReinforced.class, "doomcall:item_crate_reinforced");
 		GameRegistry.registerTileEntity(TileEntityHVGenerator.class, "doomcall_generator_hv");

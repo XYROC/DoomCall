@@ -47,10 +47,10 @@ public class GuiHVGenerator extends GuiContainer {
 		int ySize_yellorium = (int) (yellorium_p * 40);
 		ElementSimpleScaled rf_bar = new ElementSimpleScaled(texture_nei, 16, 60 - ySize_rf, 12, ySize_rf, 17,
 				1 + (40 - ySize_rf));
-		rf_bar.drawElement(this);
+		rf_bar.draw(this);
 		ElementSimpleScaled yellorium_bar = new ElementSimpleScaled(texture_nei, 34, 60 - ySize_yellorium, 12,
 				ySize_yellorium, 46, 1 + (40 - ySize_yellorium));
-		yellorium_bar.drawElement(this);
+		yellorium_bar.draw(this);
 	}
 	
 	@Override

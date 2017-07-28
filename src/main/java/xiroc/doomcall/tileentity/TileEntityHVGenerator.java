@@ -1,5 +1,6 @@
 package xiroc.doomcall.tileentity;
 
+import doom.lib.LibReference;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.IInventory;
@@ -21,8 +22,6 @@ public class TileEntityHVGenerator extends TileEntityBasicGenerator implements I
 	private double yellorium = 0;
 	private int maxYellorium = 500;
 	private double rf = 0;
-	private String yellorium_tag = "yell_doom_432b";
-	private String rf_tag = "rf_doom_432b";
 	
 	boolean yelloriumE;
 	boolean uranium;
@@ -65,8 +64,8 @@ public class TileEntityHVGenerator extends TileEntityBasicGenerator implements I
 	public void writeToNBT(NBTTagCompound nbt) {
 		super.writeToNBT(nbt);
 		System.out.println("Saving to NBT: [" + yellorium + ";" + getEnergyStored(ForgeDirection.DOWN) + "]");
-		nbt.setDouble(yellorium_tag, getYellorium());
-		nbt.setDouble(rf_tag, getEnergyStored(ForgeDirection.DOWN));
+		nbt.setDouble(LibReference.yellorium_tag, getYellorium());
+		nbt.setDouble(LibReference.rf_tag, getEnergyStored(ForgeDirection.DOWN));
 		NBTTagList nbttaglist = new NBTTagList();
 
 		for (int i = 0; i < this.items.length; ++i) {

@@ -1,0 +1,5 @@
+package doom.lib.block;
+
+public class BlockMachine {
+
+}
